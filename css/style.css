@@ -18,7 +18,7 @@ body {
   justify-content: flex-start;
   align-content: center;
   width: 1000px;
-  margin-top: 250px;
+  margin-top: 270px;
 }
 .landing-page {
   width: 100%;
@@ -30,7 +30,7 @@ body {
 .landing-page__esquerda {
   background-image: url(../img/azul-bg.jpg);
   width: 45%;
-  height: 680px;
+  height: 750px;
   display: flex;
   flex-flow: column wrap;
   align-content: center;
@@ -55,7 +55,7 @@ body {
 }
 
 .landing-page__esquerda-lista > li {
-  padding-bottom: 8px;
+  padding-bottom: 12px;
 }
 
 .landing-page__esquerda-link {
@@ -65,7 +65,7 @@ body {
 .landing-page__direita {
   background-color: #ffffff;
   width: 55%;
-  height: 680px;
+  height: 750px;
   display: flex;
   justify-content: space-between;
   flex-flow: column wrap;
@@ -81,17 +81,30 @@ h1 {
 
 .conteudo {
   margin-left: 70px;
+  padding-top: 40px;
+}
+
+.conteudo__1 {
+  margin-top: 30px;
 }
 
 .conteudo__2 {
   font-style: italic;
-  width: 420px;
+  width: 430px;
   line-height: 25px;
 }
 
 .conteudo__3 {
   font-style: italic;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
+}
+
+.conteudo__4 {
+  font-size: 6px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+  margin-bottom: 40px;
 }
 
 span {
